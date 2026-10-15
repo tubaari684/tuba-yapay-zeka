@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5. Sınıf Matematik - Temel Geometrik Kavramlar Sınavı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    <style>
+        @media print {
+            body { background-color: white; padding: 0; }
+            .no-print { display: none; }
+            .print-border { border: 1px solid #cbd5e1 !important; }
+            .page-break { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans p-4 sm:p-8">
+
+    <!-- Kontrol ve Yazdırma Paneli (Yazdırma sırasında gizlenir) -->
+    <div class="max-w-3xl mx-auto mb-6 flex justify-between items-center bg-white p-4 rounded-xl shadow-sm border border-slate-200 no-print">
+        <div>
+            <span class="text-sm font-semibold text-indigo-600">Hacı Hatice Ongurlar Ortaokulu</span>
+            <p class="text-xs text-slate-500">Görsel Destekli Açık Uçlu Sınav Kağıdı</p>
+        </div>
+        <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-4 py-2 rounded-lg shadow transition flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+            </svg>
+            Sınavı Yazdır / PDF Kaydet
+        </button>
+    </div>
+
+    <div class="max-w-3xl mx-auto bg-white p-6 sm:p-10 rounded-2xl shadow-md border border-slate-200 print-border">
+        
+        <!-- Okul ve Sınav Başlığı -->
+        <div class="text-center border-b-2 border-slate-800 pb-6 mb-6">
+            <h1 class="text-xl sm:text-2xl font-black text-slate-900 tracking-wide uppercase">HACI HATİCE ONGURLAR ORTAOKULU</h1>
+            <p class="text-md font-bold text-slate-700 mt-1">2025-2026 Eğitim Öğretim Yılı 5. Sınıf Matematik Dersi</p>
+            <p class="text-sm font-semibold text-indigo-700 mt-1">Temel Geometrik Kavramlar Konulu 1. Dönem Açık Uçlu Sınavı</p>
+        </div>
+
+        <!-- Öğrenci Bilgileri -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6 bg-slate-50 p-4 rounded-xl border border-slate-200 text-sm">
+            <div><span class="font-bold text-slate-700">Adı Soyadı:</span> ............................................</div>
+            <div><span class="font-bold text-slate-700">Sınıfı / No:</span> 5 / ....... - .......</div>
+            <div><span class="font-bold text-slate-700">Aldığı Puan:</span> <span class="text-lg font-bold text-indigo-600">......... / 100</span></div>
+        </div>
+
+        <div class="mb-6 text-xs italic text-slate-600 bg-amber-50 p-3 rounded-lg border border-amber-200">
+            * Sınavımız 10 adet açık uçlu sorudan oluşmakta olup her soru eşit değerde (10 puan) ve toplam 100 puandır. Çözümlerinizi ve gerekçelerinizi şekil altındaki veya sorulara ayrılan boşluklara mutlaka yazınız. Başarılar dileriz!
+        </div>
+
+        <!-- Sorular Listesi -->
+        <div class="space-y-8">
+
+            <!-- Soru 1 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 1</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Aşağıda görseli verilen A, B ve C noktaları ile ilgili; bu noktaların boyutlarının olup olmadığını, cetvel yardımıyla aralarındaki ilişkileri ve isimlendirme kurallarını kısaca açıklayınız.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="240" height="70" viewBox="0 0 240 70">
+                        <circle cx="40" cy="35" r="4" fill="#312e81"/>
+                        <text x="36" y="20" font-size="14" font-weight="bold" fill="#312e81">A</text>
+                        <circle cx="120" cy="35" r="4" fill="#312e81"/>
+                        <text x="116" y="20" font-size="14" font-weight="bold" fill="#312e81">B</text>
+                        <circle cx="200" cy="35" r="4" fill="#312e81"/>
+                        <text x="196" y="20" font-size="14" font-weight="bold" fill="#312e81">C</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 2 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 2</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Aşağıdaki görselde gösterilen doğru, doğru parçası ve ışın modellerini inceleyerek uç noktalarındaki sınırlılık durumlarını ve matematiksel sembollerle gösterim biçimlerini açıklayınız.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="300" height="110" viewBox="0 0 300 110">
+                        <!-- Doğru Parçası -->
+                        <line x1="40" y1="20" x2="160" y2="20" stroke="#0f172a" stroke-width="2.5"/>
+                        <circle cx="40" cy="20" r="3.5" fill="#0f172a"/>
+                        <circle cx="160" cy="20" r="3.5" fill="#0f172a"/>
+                        <text x="95" y="14" font-size="11" font-weight="bold" fill="#334155">AB Doğru Parçası</text>
+                        <text x="37" y="33" font-size="11" font-weight="bold" fill="#0f172a">A</text>
+                        <text x="157" y="33" font-size="11" font-weight="bold" fill="#0f172a">B</text>
+
+                        <!-- Işın -->
+                        <line x1="40" y1="65" x2="180" y2="65" stroke="#0f172a" stroke-width="2.5"/>
+                        <polygon points="180,61 190,65 180,69" fill="#0f172a"/>
+                        <circle cx="40" cy="65" r="3.5" fill="#0f172a"/>
+                        <text x="100" y="58" font-size="11" font-weight="bold" fill="#334155">CD Işını</text>
+                        <text x="37" y="78" font-size="11" font-weight="bold" fill="#0f172a">C</text>
+                        <text x="180" y="78" font-size="11" font-weight="bold" fill="#0f172a">D</text>
+
+                        <!-- Doğru -->
+                        <line x1="20" y1="100" x2="210" y2="100" stroke="#0f172a" stroke-width="2.5"/>
+                        <polygon points="20,96 10,100 20,104" fill="#0f172a"/>
+                        <polygon points="210,96 220,100 210,104" fill="#0f172a"/>
+                        <text x="100" y="90" font-size="11" font-weight="bold" fill="#334155">EF Doğrusu</text>
+                        <text x="105" y="112" font-size="11" font-weight="bold" fill="#0f172a">E</text>
+                        <text x="125" y="112" font-size="11" font-weight="bold" fill="#0f172a">F</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 3 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 3</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Bir noktadan sonsuz sayıda doğru çizilebileceğini biliyoruz. Peki, yandaki gibi birbirine çakışık olmayan farklı iki noktadan ($K$ ve $L$) kaç tane doğru geçebilir? Çizerek ve açıklayarak yazınız.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="260" height="70" viewBox="0 0 260 70">
+                        <line x1="20" y1="50" x2="240" y2="20" stroke="#4f46e5" stroke-width="2" stroke-dasharray="4"/>
+                        <circle cx="80" cy="42" r="4" fill="#0f172a"/>
+                        <text x="75" y="60" font-size="12" font-weight="bold" fill="#0f172a">K</text>
+                        <circle cx="180" cy="30" r="4" fill="#0f172a"/>
+                        <text x="185" y="20" font-size="12" font-weight="bold" fill="#0f172a">L</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 4 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 4</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Aynı düzlemde bulunan iki doğrunun birbirine göre olabilecek konumları nelerdir? Aşağıdaki boşlukları doldurunuz ve bu durumları kısaca açıklayınız.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="300" height="80" viewBox="0 0 300 80">
+                        <!-- Paralel -->
+                        <line x1="20" y1="20" x2="90" y2="20" stroke="#0f172a" stroke-width="2"/>
+                        <line x1="20" y1="40" x2="90" y2="40" stroke="#0f172a" stroke-width="2"/>
+                        <text x="35" y="65" font-size="10" font-weight="bold" fill="#334155">Paralel</text>
+
+                        <!-- Kesişen -->
+                        <line x1="120" y1="15" x2="180" y2="55" stroke="#0f172a" stroke-width="2"/>
+                        <line x1="120" y1="55" x2="180" y2="15" stroke="#0f172a" stroke-width="2"/>
+                        <text x="133" y="65" font-size="10" font-weight="bold" fill="#334155">Kesişen</text>
+
+                        <!-- Dik -->
+                        <line x1="220" y1="15" x2="220" y2="55" stroke="#0f172a" stroke-width="2"/>
+                        <line x1="200" y1="35" x2="250" y2="35" stroke="#0f172a" stroke-width="2"/>
+                        <rect x="220" y="35" width="8" height="8" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                        <text x="222" y="65" font-size="10" font-weight="bold" fill="#334155">Dik</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 5 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 5</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Yandaki kesişen doğrular modelinde verilen açılardan biri $75^\circ$ olarak ölçülmüştür. Bu durumda ters açı kuralını kullanarak verilmeyen diğer üç açının ölçülerini bulunuz.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="200" height="120" viewBox="0 0 200 120">
+                        <line x1="20" y1="20" x2="180" y2="100" stroke="#0f172a" stroke-width="2"/>
+                        <line x1="20" y1="100" x2="180" y2="20" stroke="#0f172a" stroke-width="2"/>
+                        <!-- Açı Metinleri -->
+                        <text x="95" y="45" font-size="12" font-weight="bold" fill="#4f46e5">75°</text>
+                        <text x="115" y="75" font-size="12" font-weight="bold" fill="#334155">y</text>
+                        <text x="80" y="85" font-size="12" font-weight="bold" fill="#334155">z</text>
+                        <text x="60" y="60" font-size="12" font-weight="bold" fill="#334155">t</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 6 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 6</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Aşağıdaki görselde $d_1$ doğrusu ile $d_2$ doğrusu birbirine paraleldir ($d_1 \parallel d_2$) ve bu doğruları kesen bir $k$ doğrusu verilmiştir. Yöndeş açılar arasındaki ilişkiyi açıklayarak $a$ açısının kaç derece olduğunu bulunuz.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="260" height="120" viewBox="0 0 260 120">
+                        <!-- Paralel Doğrular -->
+                        <line x1="20" y1="40" x2="240" y2="40" stroke="#0f172a" stroke-width="2"/>
+                        <text x="220" y="30" font-size="11" font-weight="bold" fill="#0f172a">d₁</text>
+                        <line x1="20" y1="90" x2="240" y2="90" stroke="#0f172a" stroke-width="2"/>
+                        <text x="220" y="110" font-size="11" font-weight="bold" fill="#0f172a">d₂</text>
+                        <!-- Kesen Doğru -->
+                        <line x1="70" y1="15" x2="190" y2="115" stroke="#4f46e5" stroke-width="2"/>
+                        <text x="185" y="18" font-size="11" font-weight="bold" fill="#4f46e5">k</text>
+                        <!-- Açılar -->
+                        <text x="85" y="32" font-size="11" font-weight="bold" fill="#e11d48">110°</text>
+                        <text x="135" y="75" font-size="11" font-weight="bold" fill="#0f172a">a</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 7 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 7</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Günlük yaşamdan birbirine dik ($\perp$) olan iki doğru veya doğru parçasına iki farklı örnek verip çizerek gösteriniz.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="220" height="80" viewBox="0 0 220 80">
+                        <!-- Pencere veya Kapı Köşesi İllüstrasyonu -->
+                        <rect x="40" y="15" width="50" height="50" fill="none" stroke="#0f172a" stroke-width="2"/>
+                        <line x1="65" y1="15" x2="65" y2="65" stroke="#0f172a" stroke-width="1.5"/>
+                        <line x1="40" y1="40" x2="90" y2="40" stroke="#0f172a" stroke-width="1.5"/>
+                        <!-- Duvar ve Zemin Köşesi -->
+                        <line x1="140" y1="65" x2="200" y2="65" stroke="#0f172a" stroke-width="2.5"/>
+                        <line x1="170" y1="15" x2="170" y2="65" stroke="#0f172a" stroke-width="2.5"/>
+                        <rect x="162" y="57" width="8" height="8" fill="none" stroke="#e11d48" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 8 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 8</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Aşağıdaki şekilde verilen $A$, $B$ ve $C$ noktalarının doğrusal (aynı doğru üzerinde) olup olmadığını inceleyiniz. Gerekçenizle birlikte açıklayınız.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="240" height="80" viewBox="0 0 240 80">
+                        <circle cx="40" cy="50" r="4" fill="#0f172a"/>
+                        <text x="35" y="70" font-size="12" font-weight="bold" fill="#0f172a">A</text>
+                        <circle cx="120" cy="35" r="4" fill="#0f172a"/>
+                        <text x="116" y="25" font-size="12" font-weight="bold" fill="#0f172a">B</text>
+                        <circle cx="200" cy="20" r="4" fill="#0f172a"/>
+                        <text x="195" y="15" font-size="12" font-weight="bold" fill="#0f172a">C</text>
+                        <!-- Doğru hattı referansı -->
+                        <line x1="30" y1="52" x2="210" y2="17" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3"/>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 9 -->
+            <div class="border-b border-slate-200 pb-6 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 9</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Yandaki şekilde bir $P$ noktasından geçen doğrular kümesi gösterilmiştir. Bir noktadan kaç tane farklı doğru çizilebileceğini ve bu doğruların kesiştiği ortak noktayı yorumlayınız.</p>
+                
+                <!-- SVG Görsel -->
+                <div class="flex justify-center mb-3 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                    <svg width="180" height="100" viewBox="0 0 180 100">
+                        <line x1="20" y1="20" x2="160" y2="80" stroke="#334155" stroke-width="1.5"/>
+                        <line x1="20" y1="50" x2="160" y2="50" stroke="#334155" stroke-width="1.5"/>
+                        <line x1="20" y1="80" x2="160" y2="20" stroke="#334155" stroke-width="1.5"/>
+                        <line x1="90" y1="10" x2="90" y2="90" stroke="#334155" stroke-width="1.5"/>
+                        <circle cx="90" cy="50" r="5" fill="#e11d48"/>
+                        <text x="98" y="47" font-size="12" font-weight="bold" fill="#e11d48">P</text>
+                    </svg>
+                </div>
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+            <!-- Soru 10 -->
+            <div class="pb-2 page-break">
+                <div class="flex justify-between items-start mb-2">
+                    <h3 class="font-bold text-slate-900 text-base">Soru 10</h3>
+                    <span class="text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 px-2.5 py-1 rounded-full">10 Puan</span>
+                </div>
+                <p class="text-slate-700 mb-3 text-sm">Aşağıdaki tabloda verilen ifadelerin yanına doğru ise <b class="text-emerald-700">"D"</b>, yanlış ise <b class="text-rose-700">"Y"</b> harfi yazarak yanlış olanların doğrusunu altındaki alana kısaca açıklayınız:
+                    <br>a) (......) Doğru parçasının uzunluğu ölçülebilir ve bir başlangıç/bitiş noktası vardır.
+                    <br>b) (......) Işın, her iki yönde de sınırsız olarak sonsuza kadar uzar.
+                    <br>c) (......) Paralel doğruların hiçbir ortak noktası yoktur.
+                </p>
+                
+                <div class="h-20 w-full bg-slate-50 border border-dashed border-slate-300 rounded-lg p-2 text-xs text-slate-400">Çözüm / Açıklama alanı...</div>
+            </div>
+
+        </div>
+
+        <!-- Sınav Sonu Notu -->
+        <div class="mt-8 pt-4 border-t border-slate-200 text-center text-xs text-slate-500 font-medium">
+            Hacı Hatice Ongurlar Ortaokulu • Matematik Zümresi Başarılar Diler
+        </div>
+    </div>
+
+</body>
+</html>
